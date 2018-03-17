@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tesco</title>
+    <!== Java Script ==>
+    <!==https://www.w3schools.com/==>
+    <script>
+        function onAleart() {
+            alert('จะกดทำไมไอ้สอง')}
+        
+        function onAleartmytext(text) {
+            var mergetext=text+document.getElementById('mytext').value;
+        alert(mergetext);}
+    </script>
+
+</head>
+<style>
+    button{background-color: lightgreen}
+
+    .text{color: magenta;
+        font-size:30px;}
+
+    .my-img{
+        width: 30%;
+        height: 30%;
+        }
+
+</style>
+
+<body>
+    TESCO LOTUS
+    <br/>
+    <!== Img Tag ==>
+    <!--img class="my-img" src="./img/picture1.jpg"></img-->
+    <img style="width: 30% ;height:30%;" src="./img/picture1.jpg"></img>
+   <H1 style="color:darkgreen">TESCO LOTUS</H1>
+   <H2>IT</H2>
+   <H2 class="text">IT</H2>
+   <BUtton>OK</BUtton>
+   <br><br>
+   <BUtton style="background-color:rgb(196, 214, 32);"><h3 style="color:rgb(228, 20, 20) ;"> OK</h3></BUtton>
+   <br><br>
+   <BUtton>YES</BUtton> 
+   <BUtton class="text">NO</BUtton>
+   <BUtton onclick="onAleart()">NO</BUtton>
+ 
+<hr/>
+<br/>
+   Please enter you Name: <input type ="text" id="mytext"></input>
+   <button onclick="onAleartmytext('Your Name is ')">OK</button>
+</body>
+</html>
